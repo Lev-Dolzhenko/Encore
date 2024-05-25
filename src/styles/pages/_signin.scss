@@ -1,0 +1,101 @@
+.signin__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 200px;
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 100px;
+
+  span {
+    font-size: 13px;
+    line-height: 22px;
+    color: rgb(82, 82, 82);
+
+    text-transform: uppercase;
+
+    a {
+      font-weight: 800;
+      color: rgb(215, 103, 0);
+    }
+  }
+}
+
+.signin__form--inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  width: 100%;
+
+  input {
+    border-radius: 10px;
+    background: rgb(35, 35, 37);
+    padding: 16px;
+    width: 100%;
+
+    color: rgb(82, 82, 82);
+
+    max-width: 500px;
+  }
+
+  textarea {
+    border-radius: 10px;
+    background: rgb(35, 35, 37);
+    padding: 16px;
+    width: 100%;
+
+    color: rgb(82, 82, 82);
+
+    max-width: 500px;
+    resize: none;
+  }
+}
+
+.signin__form--button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  button {
+    border-radius: 10px;
+    background: rgb(215, 103, 0);
+
+    padding: 17px;
+
+    width: 100%;
+    max-width: 400px;
+
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    transition: transform 0.2s linear;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .login__image {
+    display: none;
+  }
+  .signin__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+  }
+  .signin__form {
+    width: 100%;
+  }
+}

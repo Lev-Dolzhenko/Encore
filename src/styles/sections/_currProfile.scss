@@ -1,0 +1,71 @@
+.profile__curr {
+  margin-top: 100px;
+}
+.profile__curr--wrapper {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  color: $colorWhite;
+}
+.profile__curr--image {
+}
+.profile__curr--info {
+}
+.profile__curr--info__name {
+  h1 {
+    text-transform: unset;
+  }
+
+  margin-bottom: 30px;
+}
+.profile__curr--info__email {
+  color: rgb(215, 103, 0);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 38px;
+}
+.profile__curr--info__about {
+  strong {
+    font-size: 24px;
+    font-weight: 950;
+    line-height: 0px;
+
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+
+  margin-bottom: 40px;
+}
+.profile__curr--info__music {
+  strong {
+    font-size: 24px;
+    font-weight: 950;
+    line-height: 0px;
+
+    display: block;
+
+    margin-bottom: 30px;
+  }
+}
+.profile__curr--info__music--buttons {
+  display: flex;
+  column-gap: 35px;
+  button {
+    padding: 16px;
+    box-sizing: border-box;
+    border: 3px solid rgb(215, 103, 0);
+    border-radius: 10px;
+
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+  }
+}

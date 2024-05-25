@@ -1,0 +1,28 @@
+.profileInfo__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 45px;
+  row-gap: 35px;
+
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1300px) {
+  .profileInfo__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .profile__curr--wrapper {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .profileInfo__list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+

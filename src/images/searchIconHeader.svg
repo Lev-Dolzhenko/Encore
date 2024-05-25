@@ -1,0 +1,14 @@
+<svg width="22.000000" height="22.000000" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_110">
+			<rect id="Icons" width="22.000000" height="22.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_110)">
+		<circle id="Ellipse 1" cx="9.429382" cy="10.214294" r="7.357142" stroke="#8A8A8A" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<rect id="Rectangle 5" x="14.322266" y="15.732941" rx="0.500000" width="5.695787" height="1.000000" transform="rotate(45 14.322266 15.732941)" fill="#8A8A8A" fill-opacity="1.000000"/>
+	</g>
+</svg>

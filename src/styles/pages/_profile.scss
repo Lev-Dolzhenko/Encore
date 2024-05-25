@@ -1,0 +1,40 @@
+.profile {
+  margin-top: 100px;
+}
+
+.profile__wrapper {
+  display: flex;
+  align-items: start;
+  column-gap: 80px;
+}
+
+.profile__image {
+}
+
+.profile__info {
+}
+
+.profile__info--name {
+  text-transform: uppercase;
+
+  margin-bottom: 16px;
+}
+
+.profile__info--list {
+  padding-left: 30px;
+}
+
+.profile__info--item {
+  color: rgb(255, 255, 255);
+  font-size: clamp(18px, 0.966rem + 0.8vw, 25px);
+  font-weight: 950;
+  line-height: 30px;
+  list-style: square;
+}
+
+
+@media screen and (max-width: 760px) {
+  .profile__wrapper {
+    flex-direction: column;
+  }
+}

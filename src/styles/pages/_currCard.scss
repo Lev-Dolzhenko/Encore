@@ -1,0 +1,38 @@
+.curr {
+  margin-top: 100px;
+}
+
+.curr__wrapper {
+  display: flex;
+  align-items: start;
+  column-gap: 40px;
+}
+
+.curr__info {
+  background: rgb(35, 35, 37);
+
+  padding: 45px 45px;
+
+  width: 100%;
+}
+
+.curr__list {
+}
+
+.curr__item {
+  color: rgb(255, 255, 255);
+  font-size: clamp(22px, 1.193rem + 0.91vw, 30px);
+  font-weight: 700;
+  line-height: 36px;
+
+  text-transform: uppercase;
+
+  list-style: disc;
+}
+
+@media screen and (max-width: 760px) {
+  .curr__wrapper {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

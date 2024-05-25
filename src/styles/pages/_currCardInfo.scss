@@ -1,0 +1,137 @@
+.currCardInfo {
+}
+
+.currCardInfo__grid {
+  display: grid;
+  grid-template-columns: auto 600px;
+  column-gap: 140px;
+  row-gap: 60px;
+}
+
+.currCardInfo__info {
+  display: flex;
+  column-gap: 60px;
+
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 31px;
+  color: rgb(143, 143, 143);
+}
+
+.currCardInfo__info--image {
+  img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+.currCardInfo__info--text {
+}
+
+.currCardInfo__info--header {
+  display: flex;
+  align-items: center;
+  column-gap: 100px;
+  span {
+    span {
+      color: rgb(215, 103, 0);
+    }
+  }
+
+  margin-bottom: 85px;
+}
+
+.currCardInfo__info--middle {
+  span {
+    span {
+      color: $colorWhite;
+    }
+  }
+  margin-bottom: 45px;
+}
+
+.currCardInfo__info--footer {
+  display: flex;
+  column-gap: 30px;
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+
+    box-sizing: border-box;
+    border: 3px solid rgb(215, 103, 0);
+    border-radius: 10px;
+    padding: 16px;
+
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+
+    width: 200px;
+
+    transition: background-color 0.1s linear;
+
+    &:hover {
+      background-color: rgb(215, 103, 0);
+    }
+  }
+}
+
+.currCardInfo__similar {
+}
+
+.currCardInfo__similar--title {
+  margin-bottom: 20px;
+}
+
+.currCardInfo__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.currCardInfo__text {
+  background: rgba(35, 35, 37, 0.8);
+
+  padding: 20px;
+
+  color: rgb(143, 143, 143);
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 38px;
+
+  grid-row: span 2;
+}
+
+@media screen and (max-width: 1660px) {
+  .currCardInfo__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .currCardInfo__info {
+    flex-direction: column;
+  }
+
+  .currCardInfo__info--header {
+    justify-content: space-between;
+
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .currCardInfo__info--footer {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .currCardInfo__info--header {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 15px;
+  }
+}
